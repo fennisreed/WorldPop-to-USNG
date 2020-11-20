@@ -10,4 +10,4 @@ Written in Python 2.7 using an ArcPy deployment from ArcMap 10.7. FME translatio
 
 #### Population Estimates Consideration: 
 The real value of the WorldPop estimates is its population density. A variety of different population estimates are available from their website, which may be used to weight more recent population estimates estimates and projections. An example of such adjustment is available [here](https://github.com/wpgp/WPGP_adj_ppp_calc) from David Kerr.
-As of 2020 the USNG now includes 100m cells. For estimates finer resolutions (<1km), I reccommend using a more spatially sensitive aggregation method.
+As of 2020 the USNG now includes 100m cells. For estimates of finer resolution (<1km), I reccommend using a more spatially sensitive aggregation method.
