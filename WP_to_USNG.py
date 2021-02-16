@@ -18,10 +18,10 @@
 # Import arcpy module
 import arcpy
 
-# Variables
-arcpy.env.workspace = "R:\\2_PROJECTS\\GIS\\Small Area Estimation\\WorldPop\\USNG\\Conversion_Workspace.gdb"
-Worldpop = "R:\\2_PROJECTS\\GIS\\Small Area Estimation\\WorldPop\\usa_ppp_2020.tif"
-USNG = "USNG_Input"
+# Variable Paths
+arcpy.env.workspace = "Workspace.gdb"
+Worldpop = "WORLDPOP.tif"
+USNG = "USNG_Input.shp"
 
 # Process: Workflow - add WorldPop Population field to USNG input as SUM_grid_code
 arcpy.Clip_management(Worldpop, "", "WP_Clip", USNG, "-9.999900e+04", "NONE", "NO_MAINTAIN_EXTENT")
