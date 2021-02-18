@@ -5,7 +5,7 @@
 # WP estimate are summed for each input geography and joined to the input feature.
 # ---------------------------------------------------------------------------
 # REQUIREMENTS: Python 2.7, ArcMap (Desktop 10.7+)
-# WorldPop 100m PPP (persons per pixel) downloads can be found here:
+# WorldPop Constrained 100m PPP (persons per pixel) downloads can be found here:
 # https://www.worldpop.org/project/categories?id=3
 # USNG grids at various scales may be found here:
 # https://usngcenter.org/portfolio-item/usng-gis-data/
